@@ -20,12 +20,10 @@ Comandos de desenvolvimento em PT-BR para projetos web:
 
 | Comando | O que faz |
 |---------|-----------|
-| `/analisar-performance` | Busca problemas de performance |
+| `/analisar-performance` | Performance, otimização, bundle size |
+| `/limpar-codigo` | Lint, formatação, código não usado |
 | `/explicar-codigo` | Explicação detalhada do código |
-| `/otimizar-codigo` | Aplica otimizações |
-| `/limpar-codigo` | Refatoração e clean code |
 | `/planejar-feature` | Plano de implementação |
-| `/lint` | Correções de ESLint/Prettier/TS |
 | `/deploy` | Build local + deploy para produção |
 
 ## Stack
