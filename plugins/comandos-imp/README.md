@@ -18,6 +18,7 @@ Comandos de desenvolvimento em português brasileiro para Claude Code, otimizado
 |---------|-----------|
 | `/analisar-performance` | Analisa performance, otimização, bundle size e código duplicado |
 | `/limpar-codigo` | Lint, formatação, TypeScript, código não usado e organização |
+| `/encontrar-repeticoes` | Encontra código repetido que pode ser centralizado |
 | `/explicar-codigo` | Gera explicação detalhada e didática do código |
 | `/planejar-feature` | Cria plano detalhado de implementação |
 | `/deploy` | Build local + deploy para servidor de produção |
@@ -30,6 +31,9 @@ Comandos de desenvolvimento em português brasileiro para Claude Code, otimizado
 
 # Limpar código (lint, formatação, código não usado)
 /limpar-codigo
+
+# Encontrar código repetido para centralizar
+/encontrar-repeticoes
 
 # Explicar um código específico
 /explicar-codigo [cole o código ou mencione o arquivo]

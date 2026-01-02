@@ -22,6 +22,7 @@ Comandos de desenvolvimento em PT-BR para projetos web:
 |---------|-----------|
 | `/analisar-performance` | Performance, otimização, bundle size |
 | `/limpar-codigo` | Lint, formatação, código não usado |
+| `/encontrar-repeticoes` | Código duplicado que pode ser centralizado |
 | `/explicar-codigo` | Explicação detalhada do código |
 | `/planejar-feature` | Plano de implementação |
 | `/deploy` | Build local + deploy para produção |
