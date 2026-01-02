@@ -1,41 +1,58 @@
 ---
-description: Gera explicação detalhada do código
+description: Lê todo o projeto e explica como ele funciona
 ---
 
-# Explicar Código
+# Explicar Projeto
 
-Analise o código fornecido e gere uma **explicação detalhada e didática** em português.
+Leia **todo o projeto** e me explique como ele funciona de forma completa e didática.
 
-## Estrutura da explicação:
+## Instruções:
+
+1. **Primeiro**, mapeie toda a estrutura de pastas e arquivos
+2. **Depois**, analise os arquivos principais
+3. **Explique** a arquitetura geral e o fluxo de dados
+4. **NÃO faça nenhuma alteração** - apenas explique
+
+## O que eu quero saber:
 
 ### 1. Visão Geral
-- O que esse código faz em uma frase
+- O que esse projeto faz (em 2-3 frases)
 - Qual problema ele resolve
+- Stack utilizada
 
-### 2. Fluxo de Execução
-- Passo a passo do que acontece quando o código roda
-- Use numeração (1, 2, 3...) para facilitar o entendimento
+### 2. Estrutura de Pastas
+```
+Mostre a árvore de pastas com explicação do que cada uma contém
+```
 
-### 3. Componentes Principais
-Para cada função/componente importante:
-- **Nome**: O que é
-- **Propósito**: Por que existe
-- **Parâmetros**: O que recebe (se aplicável)
-- **Retorno**: O que devolve (se aplicável)
+### 3. Arquitetura
+- Como os dados fluem no sistema
+- Quais são os pontos de entrada (páginas, APIs)
+- Como frontend se conecta com backend
+- Como backend se conecta com banco de dados
 
-### 4. Dependências e Imports
-- Explique brevemente cada import e por que está sendo usado
+### 4. Arquivos Principais
+Para cada arquivo importante, explique:
+- **Arquivo**: nome e caminho
+- **Propósito**: o que ele faz
+- **Dependências**: do que ele depende
+- **Quem usa**: quem importa/chama ele
 
-### 5. Pontos de Atenção
-- Partes do código que podem confundir
-- Lógica complexa que merece destaque
-- Padrões de design utilizados (se houver)
+### 5. Fluxos Principais
+Explique os fluxos mais importantes, exemplo:
+- Fluxo de autenticação (se houver)
+- Fluxo de compra/pagamento (se houver)
+- Fluxo principal do negócio
 
-## Regras:
+### 6. Integrações Externas
+Liste todas as APIs, serviços ou bibliotecas externas usadas:
+- Nome do serviço
+- Para que é usado
+- Onde está configurado
 
-- Use linguagem simples e direta
-- Evite jargões desnecessários
-- Se houver algo que poderia ser melhorado, mencione como "Observação"
-- Adapte o nível de detalhe ao tamanho do código
+### 7. Variáveis de Ambiente
+Liste as variáveis de ambiente necessárias (.env) e explique cada uma
 
-$ARGUMENTS
+---
+
+**Após explicar, pergunte se eu quero que você detalhe alguma parte específica.**

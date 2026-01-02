@@ -1,10 +1,18 @@
 ---
 description: Planeja a implementação de uma nova feature
+argument-hint: [descrição da feature]
 ---
 
 # Planejar Feature
 
 Crie um **plano detalhado de implementação** para a feature descrita.
+
+## Instruções:
+
+1. **Primeiro**, leia o projeto atual para entender a estrutura existente
+2. **Depois**, crie o plano adaptado ao projeto
+3. **NÃO implemente nada** - apenas planeje
+4. **No final**, pergunte se desejo que você comece a implementar
 
 ## Estrutura do plano:
 
@@ -13,7 +21,12 @@ Crie um **plano detalhado de implementação** para a feature descrita.
 - Qual problema resolve
 - Quem vai usar
 
-### 2. Requisitos Técnicos
+### 2. Análise do Projeto Atual
+- Como essa feature se encaixa no projeto existente
+- O que já existe que pode ser reaproveitado
+- O que precisa ser criado do zero
+
+### 3. Requisitos Técnicos
 
 #### Frontend (se aplicável)
 - Componentes necessários
@@ -26,55 +39,60 @@ Crie um **plano detalhado de implementação** para a feature descrita.
 - Autenticação/autorização
 
 #### Banco de Dados (se aplicável)
-- Collections/tabelas novas ou alterações
+- Collections/schemas novos ou alterações
 - Índices necessários
-- Migrations
 
-### 3. Arquivos a Criar/Modificar
+### 4. Arquivos a Criar/Modificar
 
 ```
-📁 Estrutura de arquivos
+📁 Arquivos NOVOS a criar:
 ├── /app ou /pages
 │   └── ...
 ├── /components
 │   └── ...
-├── /lib ou /utils
-│   └── ...
-├── /api
-│   └── ...
-└── /types
+└── /api
     └── ...
+
+📝 Arquivos EXISTENTES a modificar:
+├── ...
+└── ...
 ```
 
-### 4. Etapas de Implementação
+### 5. Etapas de Implementação
 
 Divida em tarefas pequenas e ordenadas:
 
-1. **[Etapa 1]** - Descrição (~X min)
-2. **[Etapa 2]** - Descrição (~X min)
-3. ...
+| # | Etapa | Descrição | Tempo estimado |
+|---|-------|-----------|----------------|
+| 1 | ... | ... | ~X min |
+| 2 | ... | ... | ~X min |
 
-### 5. Dependências
+### 6. Dependências
 
-- Pacotes npm necessários
+- Pacotes npm necessários (se houver novos)
 - Serviços externos (APIs, etc)
-- Configurações de ambiente (.env)
+- Variáveis de ambiente novas (.env)
 
-### 6. Considerações
+### 7. Considerações
 
 - **Segurança**: Pontos de atenção
 - **Performance**: Possíveis gargalos
 - **Edge cases**: Casos especiais a tratar
 
-### 7. Estimativa de Tempo
+### 8. Estimativa Total
 
-| Etapa | Tempo Estimado |
-|-------|----------------|
-| ... | ... |
+| Fase | Tempo |
+|------|-------|
+| Setup inicial | X min |
+| Backend | X min |
+| Frontend | X min |
+| Testes | X min |
 | **Total** | **X horas** |
 
 ---
 
-Feature a planejar:
+**Deseja que eu comece a implementar? Se sim, por qual etapa?**
 
-$ARGUMENTS
+---
+
+Feature a planejar: $ARGUMENTS

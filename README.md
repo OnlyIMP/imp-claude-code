@@ -26,6 +26,7 @@ Comandos de desenvolvimento em PT-BR para projetos web:
 | `/limpar-codigo` | Refatoração e clean code |
 | `/planejar-feature` | Plano de implementação |
 | `/lint` | Correções de ESLint/Prettier/TS |
+| `/deploy` | Build local + deploy para produção |
 
 ## Stack
 

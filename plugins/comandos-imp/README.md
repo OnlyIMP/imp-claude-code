@@ -16,18 +16,20 @@ Comandos de desenvolvimento em português brasileiro para Claude Code, otimizado
 
 | Comando | Descrição |
 |---------|-----------|
-| `/analisar-performance` | Analisa código em busca de problemas de performance |
+| `/analisar-performance` | Analisa performance, otimização, bundle size e código duplicado |
+| `/limpar-codigo` | Lint, formatação, TypeScript, código não usado e organização |
 | `/explicar-codigo` | Gera explicação detalhada e didática do código |
-| `/otimizar-codigo` | Aplica otimizações de performance |
-| `/limpar-codigo` | Refatora seguindo clean code e boas práticas |
 | `/planejar-feature` | Cria plano detalhado de implementação |
-| `/lint` | Analisa e corrige problemas de ESLint/Prettier/TS |
+| `/deploy` | Build local + deploy para servidor de produção |
 
 ## Como Usar
 
 ```bash
-# Analisar performance do arquivo atual
+# Analisar performance e otimização do projeto
 /analisar-performance
+
+# Limpar código (lint, formatação, código não usado)
+/limpar-codigo
 
 # Explicar um código específico
 /explicar-codigo [cole o código ou mencione o arquivo]
@@ -35,8 +37,8 @@ Comandos de desenvolvimento em português brasileiro para Claude Code, otimizado
 # Planejar uma nova feature
 /planejar-feature sistema de pagamento via PIX
 
-# Otimizar código
-/otimizar-codigo [cole o código]
+# Deploy para produção
+/deploy
 ```
 
 ## Stack Otimizada

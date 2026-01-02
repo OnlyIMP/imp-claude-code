@@ -1,61 +1,95 @@
 ---
-description: Refatora e limpa o código seguindo boas práticas
+description: Analisa todo o projeto buscando problemas de código, lint, formatação e organização
 ---
 
 # Limpar Código
 
-Refatore o código fornecido aplicando **clean code** e **boas práticas** sem alterar a funcionalidade.
+Leia **todo o projeto** e liste todos os problemas de código, lint, formatação, TypeScript e organização.
 
-## O que fazer:
+## Instruções:
 
-### Nomenclatura
-- Renomear variáveis/funções com nomes descritivos
-- Usar convenções consistentes (camelCase para variáveis, PascalCase para componentes)
-- Remover abreviações confusas
+1. **Primeiro**, mapeie a estrutura do projeto inteiro
+2. **Depois**, analise cada arquivo (.ts, .tsx, .js, .jsx)
+3. **Liste** todos os problemas encontrados
+4. **NÃO faça nenhuma alteração** - apenas liste
+5. **No final**, pergunte se desejo que você corrija algum item
 
-### Estrutura
-- Extrair funções muito longas em funções menores
-- Remover código duplicado (DRY)
-- Remover código morto/comentado
-- Organizar imports (externos primeiro, depois internos)
+## O que verificar:
+
+### Código Não Usado
+- Variáveis não utilizadas
+- Imports não utilizados
+- Funções que nunca são chamadas
+- Arquivos que não são importados
+- Código comentado que deveria ser removido
+
+### ESLint
+- Console.log esquecidos
+- Funções async sem await
+- Promises não tratadas
+- Comparações com == ao invés de ===
+- Hooks fora de ordem ou em condicionais
+
+### Formatação
+- Indentação inconsistente
+- Ponto e vírgula faltando ou sobrando
+- Aspas simples vs duplas (inconsistência)
+- Linhas muito longas (> 100 chars)
 
 ### TypeScript
-- Adicionar tipos onde estiver faltando
-- Remover `any` desnecessários
-- Criar interfaces/types para objetos complexos
-- Usar enums para valores fixos
+- Tipos implícitos que deveriam ser explícitos
+- Uso de `any`
+- Assertions desnecessárias
+- Null checks faltando
+- Tipos que poderiam ser mais específicos
 
 ### React / Next.js
-- Separar lógica de UI (custom hooks)
-- Componentizar elementos repetidos
-- Ordenar hooks no topo do componente
-- Props destructuring consistente
+- Keys faltando em listas/maps
+- Dependências de useEffect incorretas
+- Props sem tipagem
 
-### Legibilidade
-- Adicionar espaçamento adequado
-- Simplificar condicionais complexas
-- Usar early returns para reduzir aninhamento
-- Adicionar comentários APENAS onde realmente necessário
+### Organização
+- Arquivos muito grandes que deveriam ser divididos
+- Funções muito longas (mais de 50 linhas)
+- Código duplicado que deveria ser extraído
+- Nomenclatura ruim (data, temp, x, y)
+- Funções com muitos parâmetros (mais de 4)
 
 ## Formato da resposta:
 
-### Código Refatorado
-```typescript
-// código limpo aqui
-```
+### 📊 Resumo Geral
+- Arquivos analisados: X
+- Total de problemas: X
+- Erros: X
+- Avisos: X
 
-### Mudanças Realizadas
-- [ ] Lista cada mudança feita
-- [ ] Explique brevemente o motivo
+### 🔴 Erros (devem ser corrigidos)
 
-### Arquivos Sugeridos (se aplicável)
-Se fizer sentido dividir em múltiplos arquivos, sugira a estrutura:
-```
-/components
-  /NomeComponente
-    index.tsx
-    useNomeComponente.ts  (hook)
-    types.ts              (tipos)
-```
+| # | Arquivo | Linha | Problema | Tipo |
+|---|---------|-------|----------|------|
+| 1 | ... | ... | ... | ... |
 
-$ARGUMENTS
+### 🟡 Avisos (recomendado corrigir)
+
+| # | Arquivo | Linha | Problema | Tipo |
+|---|---------|-------|----------|------|
+| 1 | ... | ... | ... | ... |
+
+### 🔵 Formatação e Organização
+
+| # | Arquivo | Linha | Problema |
+|---|---------|-------|----------|
+| 1 | ... | ... | ... |
+
+### 📋 Resumo por Arquivo
+
+| Arquivo | Erros | Avisos | Formatação |
+|---------|-------|--------|------------|
+| ... | X | X | X |
+
+---
+
+**Deseja que eu corrija algum problema? Informe:**
+- Número específico (ex: "1, 5, 7")
+- "todos" para corrigir tudo
+- Nome do arquivo para corrigir um arquivo inteiro
