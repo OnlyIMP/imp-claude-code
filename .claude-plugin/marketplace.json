@@ -11,10 +11,7 @@
     {
       "name": "comandos-imp",
       "description": "Comandos de desenvolvimento em PT-BR: análise de performance, explicação de código, otimização, limpeza, planejamento e lint",
-      "source": {
-        "type": "local",
-        "path": "./plugins/comandos-imp"
-      },
+      "source": "./plugins/comandos-imp",
       "category": "development",
       "tags": ["portuguese", "nextjs", "typescript", "mongodb", "react"]
     }
