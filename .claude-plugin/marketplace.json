@@ -1,0 +1,22 @@
+{
+  "name": "imp-claude-code",
+  "owner": {
+    "name": "IMP"
+  },
+  "metadata": {
+    "description": "Comandos em português para desenvolvimento web com Next.js, TypeScript e MongoDB",
+    "homepage": "https://github.com/OnlyIMP/imp-claude-code"
+  },
+  "plugins": [
+    {
+      "name": "comandos-imp",
+      "description": "Comandos de desenvolvimento em PT-BR: análise de performance, explicação de código, otimização, limpeza, planejamento e lint",
+      "source": {
+        "type": "local",
+        "path": "./plugins/comandos-imp"
+      },
+      "category": "development",
+      "tags": ["portuguese", "nextjs", "typescript", "mongodb", "react"]
+    }
+  ]
+}

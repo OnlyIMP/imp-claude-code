@@ -1,0 +1,11 @@
+{
+  "name": "comandos-imp",
+  "version": "1.0.0",
+  "description": "Comandos de desenvolvimento em português brasileiro para Next.js, TypeScript e MongoDB",
+  "author": {
+    "name": "IMP"
+  },
+  "repository": "https://github.com/OnlyIMP/imp-claude-code",
+  "keywords": ["portuguese", "nextjs", "typescript", "mongodb", "react", "desenvolvimento"],
+  "license": "MIT"
+}
