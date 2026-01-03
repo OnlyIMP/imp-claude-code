@@ -44,11 +44,6 @@ Leia e analise **todo o projeto** em busca de problemas de performance e oportun
 - Bibliotecas pesadas que têm alternativas leves
 - Código morto que pode ser removido
 
-### Código Duplicado
-- Funções duplicadas que podem virar utils
-- Componentes similares que podem ser unificados
-- Lógica repetida que pode ser abstraída
-
 ## Formato da resposta:
 
 ### 📊 Resumo Geral

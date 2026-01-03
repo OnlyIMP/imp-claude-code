@@ -17,6 +17,7 @@ Comandos de desenvolvimento em português brasileiro para Claude Code, otimizado
 | Comando | Descrição |
 |---------|-----------|
 | `/analisar-performance` | Analisa performance, otimização, bundle size e código duplicado |
+| `/analisar-seguranca` | Encontra falhas de segurança e vulnerabilidades |
 | `/limpar-codigo` | Lint, formatação, TypeScript, código não usado e organização |
 | `/encontrar-repeticoes` | Encontra código repetido que pode ser centralizado |
 | `/explicar-codigo` | Gera explicação detalhada e didática do código |
@@ -28,6 +29,9 @@ Comandos de desenvolvimento em português brasileiro para Claude Code, otimizado
 ```bash
 # Analisar performance e otimização do projeto
 /analisar-performance
+
+# Verificar falhas de segurança
+/analisar-seguranca
 
 # Limpar código (lint, formatação, código não usado)
 /limpar-codigo
